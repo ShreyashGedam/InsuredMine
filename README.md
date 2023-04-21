@@ -6,6 +6,8 @@
 
 3 - For the file upload,  api: url = "http://localhost:8080/fileupload",
     Go to Body, then form-data. Make sure the key is "myfile", select the type as file and upload. Make sure you are uploading the .csv file.
+    You will see all the data from csv in mongoDB compass. If its not shown. Close the compass and open again. Data will be present.
+    Use the csv file shared in the mail. Code is written acccordingly for file upload part.
 
 4 - CRUD for Agent 
     GET - "http://localhost:8080/agent/getAgents"
