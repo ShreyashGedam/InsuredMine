@@ -2,7 +2,7 @@
 
 1 - Make the database with the name "InsuredMine" with a collection name "users" in MongoDB Compass.
 
-2 - If the DB fails to connect. Comment out/uncomment the line 3 and comment line 4 inside config foulder in the config.js file
+2 - If the DB fails to connect. Comment out/uncomment the line 3 and comment line 4 inside config folder in the config.js file
 
 3 - For the file upload,  api: url = "http://localhost:8080/fileupload",
     Go to Body, then form-data. Make sure the key is "myfile", select the type as file and upload. Make sure you are uploading the .csv file.
